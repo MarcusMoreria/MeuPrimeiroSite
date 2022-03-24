@@ -1,17 +1,22 @@
 body{
-    background-color: #B0E0E6;}
-    img{
-        width: 20%;}
-    figure{
-        text-align: center;
-    }
-    .img_topo{
-        width: 50%;
-    }
-    .container{
-        width: 80%;
-        margin: auto;
-    }
-    h1{
-        text-align: center;
-    }
+    background-color: #B0E0E6;
+}
+img{
+    width: 20%;}
+figure{
+    text-align: center;
+}
+.img_topo{
+     width: 30%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 1.5em;
+    text-indent: 30px;
+}
