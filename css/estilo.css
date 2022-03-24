@@ -2,6 +2,9 @@ body{
     background-color: #B0E0E6;}
     img{
         width: 20%;}
-    .img_topo{
+    figure{
         text-align: center;
+    }
+    .img_topo{
+        width: 50%;
     }
