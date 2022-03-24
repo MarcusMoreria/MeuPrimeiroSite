@@ -3,3 +3,6 @@ body{
     img{
         width: 20%;
     }
+    figure{
+        text-align: center;
+    }
