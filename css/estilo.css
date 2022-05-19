@@ -37,3 +37,6 @@ p{
 html{
     scroll-behavior: smooth;
 }
+menu{
+    padding: 2%;    
+}
