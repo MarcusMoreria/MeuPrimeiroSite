@@ -56,3 +56,18 @@ menu{
 .itens_menu{
     text-align: center;
 }
+
+footer{
+    background-color: blue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+footer p{
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+figure{
+    text-align: center;
+    border: 1em;
+}
