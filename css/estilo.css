@@ -2,10 +2,6 @@ body{
     background-color: #DC143C;
 }
 
-img{
-    width: 20%;
-}
-
 figure{
     text-align: center;
     margin-top: 2%;
@@ -56,12 +52,11 @@ html{
   
     scroll-behavior: smooth;
 }
-menu{
+.menu{
     padding: 2%;    
 }
 .itens_menu{
     text-align: center;
-    width: 1.5em;
 }
 
 footer{
@@ -74,6 +69,27 @@ footer p{
     color: black;
     font-weight: bold;
     font-size: 1.3em;
-    text-align: center;
-    
+    text-align: center; 
+}
+.img_topo{
+    width: 80%;
+}
+.img_fla_direita{
+    width: 20%;
+    float: right;
+    margin-left: 2%;
+}
+.img_fla_esquerda{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+.img_corpo2{
+    width: 40%;
+}
+.img_corpo{
+    width: 25%;
+}
+p{
+    text-align: justify;
 }
