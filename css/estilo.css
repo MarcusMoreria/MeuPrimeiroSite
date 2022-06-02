@@ -49,16 +49,8 @@ p{
 }
 
 html{
-  
     scroll-behavior: smooth;
-}
-.menu{
-    padding: 2%;    
-}
-.itens_menu{
-    text-align: center;
-}
-
+}    
 footer{
     background-color: #FF6347;
     padding-top: 2%;
@@ -93,3 +85,26 @@ footer p{
 p{
     text-align: justify;
 }
+.itens_menu{
+    text-align: center;
+    font-size: 1.2em;
+}
+li{
+    padding: 0.5%;
+}
+.itens_menu a:link, .itens_menu a:hover{
+    color: #8B4513;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.itens_menu a:hover{
+    background-color: gray;
+}
+
+#saiba_mais a:hover{
+    color: #8B4513;
+}
+#saiba_mais a:visited{
+    color: #FF0000;
+}
+
