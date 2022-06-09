@@ -50,27 +50,32 @@ p{
 
 html{
     scroll-behavior: smooth;
-}    
+}
+
 footer{
     background-color: #FF6347;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 2%;
 }
+
 footer p{
     color: black;
     font-weight: bold;
     font-size: 1.3em;
     text-align: center; 
 }
+
 .img_topo{
     width: 80%;
 }
+
 .img_fla_direita{
     width: 20%;
     float: right;
     margin-left: 2%;
 }
+
 .img_fla_esquerda{
     width: 20%;
     float: left;
@@ -79,24 +84,30 @@ footer p{
 .img_corpo2{
     width: 40%;
 }
+
 .img_corpo{
     width: 25%;
 }
+
 p{
     text-align: justify;
 }
+
 .itens_menu{
     text-align: center;
     font-size: 1.2em;
 }
+
 li{
     padding: 0.5%;
 }
+
 .itens_menu a:link, .itens_menu a:hover{
     color: #8B4513;
     font-weight: bolder;
     text-decoration: none;
 }
+
 .itens_menu a:hover{
     background-color: gray;
 }
@@ -104,6 +115,7 @@ li{
 #saiba_mais a:hover{
     color: #8B4513;
 }
+
 #saiba_mais a:visited{
     color: #FF0000;
 }
