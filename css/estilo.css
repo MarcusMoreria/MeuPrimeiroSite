@@ -22,6 +22,7 @@ h1{
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
+    font-family: 'Cousine', monospace;
 }
 
 p{
@@ -91,6 +92,7 @@ footer p{
 
 p{
     text-align: justify;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .itens_menu{
@@ -129,16 +131,20 @@ td, th {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
+    font-family: 'Share Tech Mono', monospace;
 }
 h2{
     font-size: 1.5em;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
+    font-family: 'Cousine', monospace;
+    
 }
 
 th{
     width: 5%;
     text-align: center;
     background-color: #F5FFFA;
+    font-family: 'Share Tech Mono', monospace;
 }
