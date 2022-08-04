@@ -130,7 +130,7 @@ table {
 td, th {
     border: 1px solid black;
     text-align: left;
-    padding: 8px;
+    padding: 1%;
     font-family: 'Share Tech Mono', monospace;
 }
 h2{
@@ -147,4 +147,22 @@ th{
     text-align: center;
     background-color: #F5FFFA;
     font-family: 'Share Tech Mono', monospace;
+}
+
+.audios{
+    text-align: center;
+    width: 8%;
+    padding-bottom: 0.5em;
+}
+
+.mp3{
+    width: 50%;
+}
+.titulo_musica{
+    font-size: 1.5em;
+    padding-bottom: 1%;
+}
+
+td{
+    padding-top: 1%;
 }
