@@ -166,3 +166,18 @@ th{
 td{
     padding-top: 1%;
 }
+
+input[type=text], select, input[type=tel], input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=radio], label{
+    display: inline-block;
+}
