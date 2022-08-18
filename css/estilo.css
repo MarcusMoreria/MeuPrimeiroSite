@@ -98,6 +98,7 @@ p{
 .itens_menu{
     text-align: center;
     font-size: 1.2em;
+    background-color: #FF6347;
 }
 
 li{
@@ -167,17 +168,59 @@ td{
     padding-top: 1%;
 }
 
-input[type=text], select, input[type=tel], input[type=email] {
-    width: 50%;
+input[type=text], select, input[type=tel], input[type=email], input[type=date], textarea {
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
-    border: 1px solid;
-    border-radius: 4px;
-    box-sizing: border-box;
-    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-family: 'Share Tech Mono', monospace;
 }
 
-input[type=radio], label{
+label{
+    width: 50%;
     display: inline-block;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: 'Share Tech Mono', monospace;
+} 
+
+.form{
+    background-color: rgba(9, 7, 6, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+input[type=submit]{
+    background-color: #DC143C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.menu{
+    background-color: #FF6347;
 }

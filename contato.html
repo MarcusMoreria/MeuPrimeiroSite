@@ -13,9 +13,9 @@
     </head>
     <body>
         <header>
-            <div id="menu">
+            <div id="menu" class="menu">
                 <div id="logo">
-                    <h1>Flamengo entre em contato</h1>
+                    <h1>Flamengo</h1>
                 </div>
                 <nav class="itens_menu">
                     <ul>
@@ -31,24 +31,84 @@
         <div class="container">
             <section>
                 <h2>Contato</h2>
-                <form action="">
-                    <label for="nnome">Nome</label><br>
-                    <input type="text" placeholder="Escreva seu nome"><br>
-                    <label for="tel">Telefone</label><br>
-                    <input type="tel"  placeholder="99999-9999"><br><br>
-                    <label for="email">E-mail</label><br>
-                    <input type="email"  placeholder="email@servidor.com"><br>   
-                    <input type="radio" id="adm" name="adm" value="1">
-                    <label for="adm">Administrativo</label><br> 
-                    <input type="radio" id="rec" name="rec" value="2">
-                    <label for="rec">Reclamação</label><br>
-                    <input type="radio" id="sug" name="sug" value="3">
-                    <label for="sug">Sugestão</label><br>
-                    <label> Menssagem</label><br>
-                    <textarea name="message" rows="10" cols="30">
-                    </textarea> <br>                  
-                    <input type="submit" value="Submit">  
-                </form>
+                <div class="formulario">
+                    <div class="form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="nnome">Nome</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" placeholder="Escreva seu nome">
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="tel">Telefone</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="tel"  placeholder="99999-9999">
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="email">E-mail</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="email"  placeholder="email@servidor.com">
+
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <Label for="#">Estado</Label>
+                                </div>
+                                <div class="col-75">
+                                    <select name="#" id="#">
+                                        <option value="#">SP</option>
+                                        <option value="#">RJ</option>
+                                        <option value="#">BA</option>
+                                        <option value="#">MG</option>
+                                        <option value="#">CE</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="#">Mensagem</label> 
+                                </div>
+                                <div class="col-75">
+                                    <textarea name="#" id="#" cols="50" rows="20"></textarea>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="#">Data</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="date" name="" id="">
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <input type="submit" value="Enviar">                        
+                            </div>
+
+                             
+                        </form>
+                    </div>
+                </div>       
             </section>
             <section>
 
