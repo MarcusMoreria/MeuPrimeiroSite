@@ -7,20 +7,115 @@
     <title>Document</title>
     <style>
         body{
-            background-color: blue;
+            background-color: aqua;
         }
+
         h1{
-            font-size: medium;
+            text-align: center;
+            font-weight: bold;
         }
+        p{
+            color: blueviolet;
+        }
+
+        .container{
+            position:relative;
+            background-color: blueviolet;
+            width: 100%;
+            height: 600px;
+            text-align: center;
+        }
+
+        .topoesq{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: chartreuse;
+
+        }
+
+        .topodir{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: red;
+
+        }
+
+        .baixoesq{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: yellow;
+
+        }
+
+        
+        .baixodir{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color:aqua;
+
+        }
+
+        .centro{
+            position: absolute;
+            width: 20%;
+            background-color:palevioletred;
+            top: 300px;
+            right: 40%;
+
+
+        }
+
+        .fixo{
+
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+        }
+        
+        header{
+            margin-top: 100px;
+        }
+
+        .main{
+            width: 100%;
+            height: 700px;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat labore facere ea quis soluta consequatur, eum, quaerat, eveniet accusamus ipsa maxime animi at perspiciatis molestiae magni aliquam nulla minus asperiores!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur ratione suscipit placeat sapiente illo incidunt dignissimos ipsum, aliquid nisi corrupti ex velit facere eligendi doloremque nostrum officiis accusamus laborum!</p>    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ab, omnis id sunt dolore molestias, autem, quasi suscipit placeat totam aliquam porro voluptatum quidem beatae et veritatis pariatur dignissimos. Minus.</p>    
-    <ul style="background-color: blue; font-weight: bold;">
-        <li style="color: brown;">Quero ir para casa</li>
-        <li style="color:red ;">Estou com fome</li>
-    </ul>
+    <header>
+        <h1 class="fixo">Aprendendo css interno</h1>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat labore facere ea quis soluta consequatur, eum, quaerat, eveniet accusamus ipsa maxime animi at perspiciatis molestiae magni aliquam nulla minus asperiores!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur ratione suscipit placeat sapiente illo incidunt dignissimos ipsum, aliquid nisi corrupti ex velit facere eligendi doloremque nostrum officiis accusamus laborum!</p>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ab, omnis id sunt dolore molestias, autem, quasi suscipit placeat totam aliquam porro voluptatum quidem beatae et veritatis pariatur dignissimos. Minus.</p>    
+        <ul style="background-color: blue; font-weight: bold;">
+            <li style="color: brown;">Quero ir para casa</li>
+            <li style="color:red ;">Estou com fome</li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="main">
+            <div class="topoesq">Topo esquerdo</div>
+            <div class="topodir">Topo direito</div>
+            <div class="centro">centro</div>
+            <div class="baixoesq">baixo esquerdo</div>
+            <div class="baixodir">baixo direito</div>
+        </div>
+    </div>  
 </body>
 </html>
