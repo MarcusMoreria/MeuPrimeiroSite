@@ -68,7 +68,7 @@ footer p{
 }
 
 .img_topo{
-    width: 80%;
+    width: 100%;
 }
 
 .img_fla_direita{
@@ -97,8 +97,32 @@ p{
 
 .itens_menu{
     text-align: center;
-    font-size: 1.2em;
+    line-height: 1.5;
+    display: inline-flex;
+}
+
+.fixo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.img_logo{
+    text-align: center;
+    width: 15%;
+}
+
+.banner{
+    margin-top: 370px;
+}
+
+header{
+    padding: 2%;
     background-color: #FF6347;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
 }
 
 li{
@@ -230,4 +254,10 @@ input[type=submit]{
     width: 100%;
     margin-top: 0;
     }    
+}
+
+@media screen and (main-width: 800px) {
+    header{
+        flex-direction: row;
+    }
 }
